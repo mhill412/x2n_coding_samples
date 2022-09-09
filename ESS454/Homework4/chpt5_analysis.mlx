@@ -1,0 +1,25 @@
+Well = @(u)integral(@(x)exp(-x)./x,u,10);
+
+r1 = 10;
+r2 = 1000;
+
+t = 1;
+
+eta1 = 5e4/1e-4;
+eta2 = 1e4/5e-4;
+
+u1 = r1^2/4/eta1/t;
+u2 = r2^2/4/eta1/t;
+
+[Well(u1) Well(u2)]
+
+Well(u1)/Well(u2)
+
+Q=1;
+d = Q/4/pi/5e4*d1
+
+Q = 1.6e5;
+T= 5320;
+S= 7e-4;
+t= 30;
+
